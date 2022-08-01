@@ -1,17 +1,16 @@
 import random
 
 print('welcome to passwords generator!')
-
 len_password = int(input('what len of password do you want: '))
 
 alphobit = 'qwertyuiopasdfghjklzxcvbnm1234567890'
 symbols = r'!?|/\@#$%^&*()-+'
 
 print('do you want that your password include special symbols( ! ? | etc.)')
-
 flag = input('yes or no? ')
 
 password = ''
+
 while flag not in ['yes', 'no', 'Yes', 'No']:
     flag = input('invalid answer!! yes or no? ')
 
