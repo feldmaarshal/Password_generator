@@ -1,5 +1,6 @@
 import random
 
+
 print('welcome to passwords generator!')
 len_password = int(input('what len of password do you want: '))
 
@@ -19,5 +20,6 @@ for i in range(len_password):
         password += random.choice(alphobit+symbols)
     else:
         password += random.choice(alphobit)
+        
 print('This is your new password: ', password)
 print('Good luck!!!')
